@@ -2,14 +2,16 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class SushiBar {
 
     //SushiBar settings
-    private static int waitingAreaCapacity = 15;
-    private static int waitressCount = 8;
-    private static int duration = 4;
+    private static int waitingAreaCapacity = 2;
+    private static int waitressCount = 3;
+    private static int duration = 2;
     public static int maxOrder = 10;
     public static int waitressWait = 50; // Used to calculate the time the waitress spends before taking the order
     public static int customerWait = 2000; // Used to calculate the time the customer spends eating
@@ -29,6 +31,7 @@ public class SushiBar {
 
     public static void main(String[] args) {
         log = new File(path + "log.txt");
+        List<Thread> threadList = new ArrayList<Thread>();
 
         //Initializing shared variables for counting number of orders
         customerCounter = new SynchronizedInteger(0);
@@ -37,12 +40,34 @@ public class SushiBar {
         takeawayOrders = new SynchronizedInteger(0);
 
         // TODO initialize the bar and start the different threads
-        WaitingArea waitingArea = new WaitingArea(waitingAreaCapacity);
-        new Thread(new Door(waitingArea)).start();
-        for(int i=0; i < waitressCount; i++){
-            new Thread(new Waitress(waitingArea)).start();
-        }
         Clock clock = new Clock(duration);
+        WaitingArea waitingArea = new WaitingArea(waitingAreaCapacity);
+        for(int i=0; i < waitressCount; i++){
+            Thread waitressThread = new Thread(new Waitress(waitingArea));
+            waitressThread.start();
+            threadList.add(waitressThread);
+        }
+        Thread doorThread = new Thread(new Door(waitingArea));
+        doorThread.start();
+        try {
+            doorThread.join();
+        }catch(InterruptedException ie){
+            ie.printStackTrace();
+        }
+        write("***** NO MORE CUSTOMERS - THE SHOP IS CLOSED NOW. *****");
+        for(Thread thread: threadList){
+            try {
+                thread.join();
+            }catch(InterruptedException ie){
+                ie.printStackTrace();
+            }
+        }
+        write("Total numer of orders:                                      " +
+                totalOrders.get() +
+                "\nTotal number of takeaway orders:                            " +
+                takeawayOrders.get() +
+                "\nTotal numer of orders that customers have eaten at the bar: " +
+                servedOrders.get());
 
     }
 

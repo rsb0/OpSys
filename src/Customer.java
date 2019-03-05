@@ -26,6 +26,13 @@ public class Customer {
      */
     public synchronized void order(){
         // TODO Implement required functionality
+        int numberOfOrders = rand.nextInt(SushiBar.maxOrder + 1);
+        int eatenOrders = rand.nextInt(numberOfOrders + 1);
+        SushiBar.totalOrders.add(numberOfOrders);
+        SushiBar.servedOrders.add(eatenOrders);
+        SushiBar.takeawayOrders.add(numberOfOrders - eatenOrders);
+    }
+    public void eating(){
         long time = (long)rand.nextInt(SushiBar.customerWait);
         try{
             Thread.sleep(time);

@@ -27,15 +27,19 @@ public class Waitress implements Runnable {
     @Override
     public void run() {
         // TODO Implement required functionality
-        while(SushiBar.isOpen) {
+        while(SushiBar.isOpen || !waitingArea.empty()) {
+            customer = waitingArea.next();
+            SushiBar.write("Customer " + customer.getCustomerID() + " is fetched");
             long time = (long) rand.nextInt(SushiBar.waitressWait);
             try {
                 Thread.sleep(time);
             } catch (InterruptedException ie) {
                 ie.printStackTrace();
             }
-            customer = waitingArea.next();
-            System.out.println("Customer " + customer.getCustomerID() + " is now waiting");
+            customer.order();
+            SushiBar.write("Customer " + customer.getCustomerID() + " is now eating");
+            customer.eating();
+            SushiBar.write("Customer " + customer.getCustomerID() + " is now leaving");
         }
     }
 

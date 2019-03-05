@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,6 +15,15 @@ public class WaitingArea {
     public WaitingArea(int size) {
         // TODO Implement required functionality
         this.capacity = size;
+        customers = new ArrayList<Customer>();
+    }
+
+    public boolean empty(){
+        if (this.customers.isEmpty()){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     /**
@@ -31,6 +41,7 @@ public class WaitingArea {
             }
         }
         customers.add(customer);
+        SushiBar.write("Customer " + customer.getCustomerID() + " is waiting");
         this.notify();
     }
 
@@ -48,7 +59,7 @@ public class WaitingArea {
             }
         }
         this.notify();
-        return customers.get(0);
+        return customers.remove(0);
     }
 
     // Add more methods as you see fit
