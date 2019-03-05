@@ -37,6 +37,13 @@ public class SushiBar {
         takeawayOrders = new SynchronizedInteger(0);
 
         // TODO initialize the bar and start the different threads
+        WaitingArea waitingArea = new WaitingArea(waitingAreaCapacity);
+        new Thread(new Door(waitingArea)).start();
+        for(int i=0; i < waitressCount; i++){
+            new Thread(new Waitress(waitingArea)).start();
+        }
+        Clock clock = new Clock(duration);
+
     }
 
     //Writes actions in the log file and console
