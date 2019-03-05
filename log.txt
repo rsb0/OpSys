@@ -42,3 +42,179 @@
 18:17:39:301, Total numer of orders:                                      52
 Total number of takeaway orders:                            28
 Total numer of orders that customers have eaten at the bar: 24
+19:56:38:784, Customer 0 is waiting
+19:56:38:827, Customer 0 is fetched
+19:56:38:853, Customer 0 is now eating
+19:56:38:916, Customer 1 is waiting
+19:56:38:919, Customer 2 is waiting
+19:56:38:919, Customer 1 is fetched
+19:56:38:923, Customer 2 is fetched
+19:56:38:954, Customer 2 is now eating
+19:56:38:959, Customer 3 is waiting
+19:56:38:960, Customer 1 is now eating
+19:56:38:990, Customer 4 is waiting
+19:56:39:15, Customer 1 is now leaving
+19:56:39:18, Customer 3 is fetched
+19:56:39:25, Customer 5 is waiting
+19:56:39:70, Customer 3 is now eating
+19:56:40:326, Customer 2 is now leaving
+19:56:40:333, Customer 4 is fetched
+19:56:40:333, Customer 6 is waiting
+19:56:40:366, Customer 3 is now leaving
+19:56:40:372, Customer 5 is fetched
+19:56:40:388, Customer 4 is now eating
+19:56:40:414, Customer 5 is now eating
+19:56:40:419, Customer 7 is waiting
+19:56:40:444, Customer 0 is now leaving
+19:56:40:450, Customer 6 is fetched
+19:56:40:504, Customer 6 is now eating
+19:56:40:523, Customer 8 is waiting
+19:56:40:561, Customer 5 is now leaving
+19:56:40:568, Customer 7 is fetched
+19:56:40:600, Customer 7 is now eating
+19:56:40:618, Customer 9 is waiting
+19:56:40:865, Customer 4 is now leaving
+19:56:40:872, Customer 10 is waiting
+19:56:40:872, Customer 8 is fetched
+19:56:40:878, ***** NO MORE CUSTOMERS - THE SHOP IS CLOSED NOW. *****
+19:56:40:892, Customer 8 is now eating
+19:56:41:291, Customer 8 is now leaving
+19:56:41:297, Customer 9 is fetched
+19:56:41:303, Customer 9 is now eating
+19:56:41:819, Customer 7 is now leaving
+19:56:41:825, Customer 10 is fetched
+19:56:41:872, Customer 10 is now eating
+19:56:42:182, Customer 10 is now leaving
+19:56:42:198, Customer 6 is now leaving
+19:56:42:325, Customer 9 is now leaving
+19:56:42:332, Total numer of orders:                                      63
+Total number of takeaway orders:                            30
+Total numer of orders that customers have eaten at the bar: 33
+19:57:31:276, Customer 0 is waiting
+19:57:31:308, Customer 0 is fetched
+19:57:31:331, Customer 0 is now eating
+19:57:31:387, Customer 1 is waiting
+19:57:31:390, Customer 1 is fetched
+19:57:31:419, Customer 2 is waiting
+19:57:31:424, Customer 2 is fetched
+19:57:31:430, Customer 3 is waiting
+19:57:31:433, Customer 1 is now eating
+19:57:31:456, Customer 2 is now eating
+19:57:31:521, Customer 4 is waiting
+19:57:31:834, Customer 0 is now leaving
+19:57:31:841, Customer 3 is fetched
+19:57:31:841, Customer 5 is waiting
+19:57:31:874, Customer 3 is now eating
+19:57:32:984, Customer 2 is now leaving
+19:57:32:990, Customer 6 is waiting
+19:57:32:990, Customer 4 is fetched
+19:57:33:34, Customer 4 is now eating
+19:57:33:227, Customer 3 is now leaving
+19:57:33:230, Customer 5 is fetched
+19:57:33:230, Customer 7 is waiting
+19:57:33:233, ***** NO MORE CUSTOMERS - THE SHOP IS CLOSED NOW. *****
+19:57:33:256, Customer 5 is now eating
+19:57:33:355, Customer 1 is now leaving
+19:57:33:363, Customer 6 is fetched
+19:57:33:399, Customer 6 is now eating
+19:57:33:510, Customer 4 is now leaving
+19:57:33:515, Customer 7 is fetched
+19:57:33:522, Customer 7 is now eating
+19:57:33:992, Customer 6 is now leaving
+19:57:34:144, Customer 5 is now leaving
+19:57:35:449, Customer 7 is now leaving
+19:57:35:455, Total numer of orders:				35
+Total number of takeaway orders:				17
+Total numer of orders that customers have eaten at the bar:	18
+19:58:01:725, Customer 0 is waiting
+19:58:01:763, Customer 0 is fetched
+19:58:01:783, Customer 0 is now eating
+19:58:01:820, Customer 1 is waiting
+19:58:01:823, Customer 1 is fetched
+19:58:01:864, Customer 2 is waiting
+19:58:01:867, Customer 2 is fetched
+19:58:01:873, Customer 1 is now eating
+19:58:01:907, Customer 2 is now eating
+19:58:01:965, Customer 3 is waiting
+19:58:02:05, Customer 4 is waiting
+19:58:02:275, Customer 0 is now leaving
+19:58:02:278, Customer 3 is fetched
+19:58:02:278, Customer 5 is waiting
+19:58:02:287, Customer 3 is now eating
+19:58:02:641, Customer 1 is now leaving
+19:58:02:644, Customer 4 is fetched
+19:58:02:644, Customer 6 is waiting
+19:58:02:670, Customer 4 is now eating
+19:58:03:53, Customer 3 is now leaving
+19:58:03:55, Customer 5 is fetched
+19:58:03:55, Customer 7 is waiting
+19:58:03:104, Customer 5 is now eating
+19:58:03:282, Customer 5 is now leaving
+19:58:03:288, Customer 6 is fetched
+19:58:03:288, Customer 8 is waiting
+19:58:03:336, Customer 6 is now eating
+19:58:03:711, Customer 4 is now leaving
+19:58:03:718, Customer 7 is fetched
+19:58:03:718, Customer 9 is waiting
+19:58:03:724, ***** NO MORE CUSTOMERS - THE SHOP IS CLOSED NOW. *****
+19:58:03:746, Customer 7 is now eating
+19:58:03:776, Customer 2 is now leaving
+19:58:03:782, Customer 8 is fetched
+19:58:03:811, Customer 8 is now eating
+19:58:04:251, Customer 7 is now leaving
+19:58:04:257, Customer 9 is fetched
+19:58:04:264, Customer 9 is now eating
+19:58:04:511, Customer 8 is now leaving
+19:58:04:678, Customer 6 is now leaving
+19:58:05:477, Customer 9 is now leaving
+19:58:05:484, Total numer of orders:					43
+Total number of takeaway orders:						26
+Total numer of orders that customers have eaten at the bar:	17
+19:58:25:472, Customer 0 is waiting
+19:58:25:510, Customer 0 is fetched
+19:58:25:555, Customer 0 is now eating
+19:58:25:593, Customer 1 is waiting
+19:58:25:596, Customer 1 is fetched
+19:58:25:619, Customer 2 is waiting
+19:58:25:622, Customer 2 is fetched
+19:58:25:626, Customer 1 is now eating
+19:58:25:665, Customer 2 is now eating
+19:58:25:682, Customer 1 is now leaving
+19:58:25:712, Customer 3 is waiting
+19:58:25:715, Customer 3 is fetched
+19:58:25:726, Customer 4 is waiting
+19:58:25:748, Customer 3 is now eating
+19:58:25:755, Customer 5 is waiting
+19:58:26:307, Customer 0 is now leaving
+19:58:26:311, Customer 4 is fetched
+19:58:26:311, Customer 6 is waiting
+19:58:26:313, Customer 4 is now eating
+19:58:26:816, Customer 4 is now leaving
+19:58:26:822, Customer 5 is fetched
+19:58:26:822, Customer 7 is waiting
+19:58:26:854, Customer 5 is now eating
+19:58:26:999, Customer 2 is now leaving
+19:58:27:04, Customer 6 is fetched
+19:58:27:04, Customer 8 is waiting
+19:58:27:52, Customer 6 is now eating
+19:58:27:168, Customer 3 is now leaving
+19:58:27:175, Customer 7 is fetched
+19:58:27:176, Customer 9 is waiting
+19:58:27:195, Customer 7 is now eating
+19:58:28:242, Customer 6 is now leaving
+19:58:28:249, Customer 8 is fetched
+19:58:28:249, Customer 10 is waiting
+19:58:28:255, ***** NO MORE CUSTOMERS - THE SHOP IS CLOSED NOW. *****
+19:58:28:268, Customer 8 is now eating
+19:58:28:543, Customer 5 is now leaving
+19:58:28:549, Customer 9 is fetched
+19:58:28:579, Customer 9 is now eating
+19:58:28:637, Customer 8 is now leaving
+19:58:28:643, Customer 10 is fetched
+19:58:28:664, Customer 10 is now eating
+19:58:29:34, Customer 10 is now leaving
+19:58:29:74, Customer 7 is now leaving
+19:58:29:154, Customer 9 is now leaving
+19:58:29:161, Total numer of orders:							73
+Total number of takeaway orders:								21
+Total numer of orders that customers have eaten at the bar:		52

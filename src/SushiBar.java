@@ -62,11 +62,11 @@ public class SushiBar {
                 ie.printStackTrace();
             }
         }
-        write("Total numer of orders:                                      " +
+        write("Total numer of orders:\t\t\t\t\t\t\t" +
                 totalOrders.get() +
-                "\nTotal number of takeaway orders:                            " +
+                "\nTotal number of takeaway orders:\t\t\t\t\t\t\t\t" +
                 takeawayOrders.get() +
-                "\nTotal numer of orders that customers have eaten at the bar: " +
+                "\nTotal numer of orders that customers have eaten at the bar:\t\t" +
                 servedOrders.get());
 
     }
